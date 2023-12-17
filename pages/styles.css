@@ -1,0 +1,626 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /* width: 100%;
+    height: 100vh; */
+  font-family: "Nunito", sans-serif;
+}
+.hero {
+  /* border: #7dc1c2 1px solid; */
+  /*NA POCETKU IKONICA KOJU NE ZNAM DA STAVIM*/
+
+  background-image: url("../images/background.png");
+
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo img {
+  width: 250px;
+  height: 100px;
+}
+.logo {
+  padding-top: 20px;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+hr {
+  padding: 0;
+  width: 1000px;
+  margin: 0px;
+  margin: auto;
+}
+
+ul {
+  flex: 1;
+  text-align: center;
+}
+ul li {
+  text-transform: uppercase;
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+}
+ul li a:hover {
+  color: white;
+  background-color: #7dc1c2;
+  border: 4px solid #7dc1c2;
+  font-weight: bolder;
+  padding: 10px 15px;
+  border-radius: 30px;
+  transition: 0.29582525252525s ease;
+}
+
+ul li a {
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 16px;
+  color: black;
+  padding: 0 10px;
+}
+.vazno {
+  color: #7dc1c2;
+}
+.rescue {
+  width: 38%;
+  height: 200px;
+  margin: 15% 15%;
+  text-align: center;
+}
+.rescue h1 {
+  font-family: "Kaushan Script";
+  font-size: 70px;
+  color: white;
+}
+.rescue h2 {
+  text-transform: uppercase;
+}
+.udomi {
+  margin: 50px 0 0 0;
+  text-align: center;
+}
+.udomi h2 {
+  font-family: "Kaushan Script";
+  font-size: 35px;
+  color: #7dc1c2;
+}
+.udomi h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.nadgalerija {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.galerija {
+  border-radius: 25px;
+  margin: 15px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 20%;
+  box-shadow: 0 0 15px 4px rgba(125, 193, 194, 0.6);
+}
+
+.galerija-slika1{
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-image: url('../images/1.jpeg');
+}
+.galerija-slika2{
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-image: url('../images/2.jpeg');
+}
+.galerija-slika3{
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-image: url('../images/3.jpeg');
+}
+.galerija-slika4{
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-image: url('../images/4.jpeg');
+}
+.galerija-slika5{
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-image: url('../images/5.jpeg');
+}
+.galerija-slika6{
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-image: url('../images/6.jpeg');
+}
+.galerija-slika7{
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-image: url('../images/7.jpeg');
+}
+.galerija-slika8{
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-image: url('../images/8.jpeg');
+}
+
+
+.galerija:hover {
+  border: 1px solid #777;
+  transition: ease-in 0.3s;
+}
+.galerija img {
+  border-radius: 25px;
+  width: 100%;
+  height: 400px;
+}
+.imepsa {
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 900;
+}
+footer {
+  color: #fff;
+  background-color: #7dc1c2;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: large;
+}
+.kontakt {
+  margin-top: 30px;
+
+  width: 350px;
+  text-align: center;
+  height: fit-content;
+}
+.footer img {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.socijalnemreze {
+  margin: 30px;
+  width: fit-content;
+  height: fit-content;
+}
+.fa-brands {
+  padding: 15px;
+  font-size: 30px;
+  margin: 0px 4px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-brands:hover {
+  color: black;
+  opacity: 0.7;
+}
+.copyright {
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+}
+.one {
+  background-image: url("../images/oneone.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.drugi {
+  width: 65%;
+
+}
+.main {
+  width: 80%;
+  height: 88vh;
+  background-color: #ffffff;
+  border-radius: 50px;
+  text-align: center;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  color: #525252;
+  box-shadow: 0 0 15px 4px rgba(168, 168, 168, 0.6);
+}
+.main h2 {
+  padding-top: 20px;
+  font-family: "Kaushan Script";
+  font-size: 42px;
+}
+.main p {
+  margin-top: 10px;
+  font-family: cursive;
+  font-size: 26px;
+  font-weight: 900;
+  color: #7dc1c2;
+}
+
+.prvideo {
+float: left;
+  width: 45%;
+  height: 100%;
+  border-radius: 25px;
+  margin: 25px 20px 10px;
+}
+.prvideo img {
+  border-radius: 25px;
+  width: 450px;
+  height: 65vh;
+  box-shadow: 0 0 15px 4px rgba(168, 168, 168, 0.6);
+}
+.drugideo {
+float: right;
+margin-top: 25px ;
+margin-right:45px ;
+  width: 48%;
+  height: 100%;
+}
+.drugideo h2{
+  color: #7dc1c2;
+}
+.drugideo h3{
+font-family: cursive;
+}
+.navbarshell {
+  margin: auto;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 90%;
+  height: 10vh;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+
+  border-radius: 25px;
+}
+.navbarshell img {
+  width: 250px;
+  height: 100px;
+}
+
+.two{
+  background-image: url("../images/dooogs.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbarshelll {
+  border: #7dc1c2 2px solid;
+  margin: auto;
+  margin-top: 10px;
+  color: hsl(181, 36%, 63%);
+  background-color: rgba(255, 255, 255);
+  width: 90%;
+  height: 10vh;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  box-shadow: 0 0 15px 4px rgba(168, 168, 168, 0.6);
+}
+.navbarshelll img {
+  width: 250px;
+  height: 100px;
+
+}.mainn {
+  
+  width: 80%;
+  height: fit-content;
+  background-color: #ffffff;
+  border-radius: 50px;
+  text-align: center;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  color: #525252;
+  box-shadow: 0 0 15px 4px rgba(168, 168, 168, 0.6);
+}
+.mainn h2 {
+  padding-top: 20px;
+  font-family: "Kaushan Script";
+  font-size: 36px;
+}
+.mainn h1 {
+  padding-top: 20px;
+  font-family: "Kaushan Script";
+  font-size: 42px;
+}
+.mainn p {
+  font-family: cursive;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin: auto;
+  font-size: 20px; 
+  width: 80%;
+  color: #7dc1c2;
+}
+
+.mainn .paragraf{
+  font-family: cursive;
+  font-size: 22px;
+  color: #525252;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: rgba(125, 193, 194,0.7);
+  border-radius: 10px;
+  box-shadow: 0 0 15px 4px rgba(168, 168, 168, 0.6);
+}
+.telo{
+  width: 100%;
+  height: fit-content;
+  background-image: url('../images/oneone.jpg');
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.glavno{
+margin: auto;
+  width: 80%;
+  height: 120vh;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 25px;
+}
+.navbarshellll {
+
+  margin: auto;
+  margin-top: 10px;
+  color: hsl(181, 36%, 63%);
+  background-color: rgba(255, 255, 255);
+  width: 90%;
+  height: 10vh;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  box-shadow: 0 0 15px 4px rgba(168, 168, 168, 0.6);}
+
+.navbarshellll img {
+    width: 250px;
+    height: 100px;
+ 
+  }
+  .animacija:hover{ 
+    animation: rotation 2s  ease;
+  }
+  @keyframes rotation {
+    from {
+      transform:rotate(0deg);
+  }
+    to {
+      transform:rotate(360deg);
+  }
+  }
+  .glavno{
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+  }
+  .glavno p{
+    color: #525252;
+    padding: 15px;
+    font-family: cursive;
+    font-size: 20PX;
+  }
+  .glavno h2{
+    font-family: "Kaushan Script";
+    font-size: 32px;
+    color: #547f80;
+  
+  }
+  .glavno button{
+    font-size: 24px;
+    border-radius: 20px;
+    border: #7dc1c2;
+    padding: 10px;
+    background-color: #547f80;
+    font-family: cursive;
+    color: #fff;
+   
+  }
+  .glavno button:hover{
+    font-size: 30px;
+    box-shadow: 0 0 15px 4px rgba(168, 168, 168, 0.9);
+
+  }
+  .glavno a{
+    text-decoration: none;
+    color: #547f80;
+  }
+  .glavno a:hover{
+    border: #547f80 1px solid;
+    background-color: #547f80;
+    color: #ccc;
+    border-radius: 5px;
+  }
+  .glavnoo{
+    margin: auto;
+      width: 80%;
+      height: fit-content;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      background-color: rgba(204, 204, 204, 0.9);
+      border-radius: 25px;}
+
+      .teloo{
+        
+        width: 100%;
+        height: fit-content;
+        background-image: url('../images/oneone.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      
+.forma{
+
+  align-items: center;
+  height: 70vh;
+  background-color: #fff;
+  text-align: center;
+  font-size: larger;
+  border-radius: 25px;
+  padding: 20px;
+  box-shadow: 0 0 15px 4px rgba(168, 168, 168, 0.9);
+}
+
+
+    h1 {
+        text-align: center;
+        color: #7dc1c2;
+        font-family: "Kaushan Script";
+    }
+
+    label {
+      font-family: cursive;
+        display: block;
+        margin-bottom: 8px;
+        color: #555;
+    }
+
+    input, textarea {
+     
+      text-align: center;
+        width: 50%;
+        padding: 10px;
+        margin-bottom: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    button {
+        background-color: #7dc1c2;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    button:hover {
+        background-color: #547f80;
+    }
+      .glavnoo .socijalnemrezee{
+        margin: auto;
+        margin-top: 30px;
+        width: 300px;
+        height: 50px;
+        color: #333;
+      }
+      .glavnoo .fa-brands {
+        padding: 15px;
+        font-size: 30px;
+        margin: 0px 4px;
+        color: #7dc1c2;
+        text-align: center;
+        text-decoration: none;
+      }
+
+@media (max-width: 1024px){
+  .glavno{
+    width: 70%;
+  }
+  .forma{
+    font-size: 14px;
+  }
+  .navbarshellll{
+    width: 90%;
+    font-size: 14px;
+    padding: 2px;
+  }
+  .navbarshellll img {
+    width: 200px;
+    height: 70px;
+ 
+  }
+  .navbarshellll a{
+    font-size: 12px;
+    display: inline-block;
+  }
+  .navbarshellll ul li{
+    margin: 0px;
+  }
+}
+@media (max-width: 747px){
+  .glavno{
+    width: 60%;
+  }
+  .forma{
+    font-size: 14px;
+  }
+  .navbarshellll{
+    width: 90%;
+    font-size: 12px;
+  border-radius: 25px;
+  }
+  .navbarshellll img {
+    width: 150px;
+    height: 70px;
+ 
+  }
+  .navbarshellll a{
+    font-size: 12px;
+    display: inline-block;
+  }
+  
+  ul li a:hover{
+    border-radius: 10px;
+    padding: 0%;
+    margin-right: 5px;
+  }
+  .navbarshellll ul li{
+    margin: 0px;
+  }
+}
+@media (max-width: 480px){
+  
+  .glavno{
+    width: 100%;
+  }
+  .forma{
+    font-size: 10px;
+  }
+  .navbarshellll{
+    
+  border-radius: 25px;
+    width: 75%;
+    font-size: 8px;
+  }
+  .navbarshellll a{
+    font-size: 8px;
+    display: inline-block;
+    padding: 5px;
+  }
+  ul li a:hover{
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .navbarshellll ul li{
+    margin: 0px;
+  }
+
+}
